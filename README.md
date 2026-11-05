@@ -1,18 +1,22 @@
-<img src="assets/AppIcon.png" width="80" alt="Agent Handler icon">
+<img src="assets/AppIcon.png" width="80" alt="Simple Agent Monitor icon">
 
-# Agent Handler
+# Simple Agent Monitor
 
-A small macOS app that keeps an eye on your agents while you do something else.
+Simple Agent Monitor provides a small panel in your Mac’s menu bar or notch to watch your agents while you do something else.
 
-See which Codex sessions are running, answer questions and handle supported approvals from the menu bar or notch. The panel can open when something needs you, then get out of the way.
+See which sessions are running, interact with your agents, answer their questions and handle supported approvals. The panel can open when something needs you, then get out of the way.
+
+**Developed for Codex so far**, specifically local Work sessions in the Codex desktop app. Claude activity observation is experimental and read-only.
 
 **100% vibe-coded, built for personal use, and provided as is.** I built it when a Codex update broke the similar apps I was using. No warranty or promised support.
 
-<img src="docs/images/ui/notch-sessions.png" width="520" alt="Agent Handler notch panel showing example sessions">
+<img src="docs/images/ui/notch-sessions.png" width="520" alt="Simple Agent Monitor notch panel showing example sessions">
 
 ## Install
 
 Requires **macOS 14 or later**.
+
+The current app download and Homebrew cask still use the name **Agent Handler**.
 
 ### Homebrew
 
