@@ -12,10 +12,10 @@ cask "agent-handler" do
   version "$version"
   sha256 "$checksum"
 
-  url "https://github.com/gbettineschi/agent-handler/releases/download/v#{version}/AgentHandler.zip"
+  url "https://github.com/gbettineschi/simple-agent-monitor/releases/download/v#{version}/AgentHandler.zip"
   name "Agent Handler"
   desc "Agent questions and approvals from the menu bar or notch"
-  homepage "https://github.com/gbettineschi/agent-handler"
+  homepage "https://github.com/gbettineschi/simple-agent-monitor"
 
   depends_on macos: :sonoma
 

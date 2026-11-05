@@ -37,7 +37,7 @@ brew upgrade --cask gbettineschi/tap/agent-handler
 
 ### Direct download
 
-Download [`AgentHandler.zip`](https://github.com/gbettineschi/agent-handler/releases/latest/download/AgentHandler.zip), unzip it, move **Agent Handler.app** to Applications, and open it. The download supports Apple silicon and Intel. To update, quit the app and replace it in the same location.
+Download [`AgentHandler.zip`](https://github.com/gbettineschi/simple-agent-monitor/releases/latest/download/AgentHandler.zip), unzip it, move **Agent Handler.app** to Applications, and open it. The download supports Apple silicon and Intel. To update, quit the app and replace it in the same location.
 
 The app is ad-hoc signed, not notarized. macOS may block downloaded builds; see [Apple’s instructions](https://support.apple.com/102445) if you choose to open one.
 
@@ -46,8 +46,8 @@ The app is ad-hoc signed, not notarized. macOS may block downloaded builds; see 
 Requires a **matching Swift 6 toolchain and macOS SDK**:
 
 ```sh
-git clone https://github.com/gbettineschi/agent-handler.git
-cd agent-handler
+git clone https://github.com/gbettineschi/simple-agent-monitor.git
+cd simple-agent-monitor
 ./scripts/install.sh
 ```
 
